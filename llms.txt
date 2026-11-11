@@ -1,0 +1,45 @@
+# AMT Solution
+
+> บริษัท สำนักงาน เอ.เอ็ม.ที. โซลูชั่น จำกัด (AMT Solution) ให้บริการรับตรวจสอบภายใน (Outsource) ที่ปรึกษาเตรียมเข้าตลาดหลักทรัพย์ (IPO) วางระบบและจัดทำ Flow Chart และตรวจประเมินระบบการควบคุมภายใน ทั่วประเทศ. สำนักงานใหญ่ตั้งอยู่ที่ 79/109 หมู่ 2 ซ.ลาดกระบัง 54 ต.ศีรษะจระเข้น้อย อ.บางเสาธง จ.สมุทรปราการ 10570 โทร 02-821-6928 อีเมล info@amtaudit.com. AMT Solution Co., Ltd. provides outsourced internal audit and IPO readiness advisory nationwide in Thailand, from its head office in Sisa Chorakhe Noi, Bang Sao Thong, Samut Prakan 10570 (near Lat Krabang, Bangkok); phone 02-821-6928, email info@amtaudit.com.
+
+## Services
+
+- [บริการรับตรวจสอบภายใน (Outsource)](https://samnakngan-amtsolution.com/services/outsource/): ตรวจสอบระบบการควบคุมภายในทั้งเพื่อเตรียมเข้าจดทะเบียนและหลังเข้าจดทะเบียนในตลาดหลักทรัพย์ เพื่อการควบคุมภายในที่ดีและเพิ่มมูลค่าองค์กร
+- [บริการเตรียมความพร้อมเข้าจดทะเบียนในตลาดหลักทรัพย์ (IPO)](https://samnakngan-amtsolution.com/services/ipo/): Pre-Audit วางระบบบัญชีและระบบการควบคุมภายใน จัดโครงสร้างบริษัท และประสานงานกับ FA ผู้สอบบัญชี SEC license และที่ปรึกษาอื่น
+- [บริการวางระบบและจัดทำ Flow Chart](https://samnakngan-amtsolution.com/services/system/): จัดทำคู่มือปฏิบัติงาน ผังงาน โครงสร้างองค์กร นโยบาย และเงื่อนไขอำนาจอนุมัติ รวมถึงแนะนำระบบ ERP ที่เหมาะสม
+- [ตรวจประเมินระบบการควบคุมภายในตามข้อตกลง](https://samnakngan-amtsolution.com/services/ic-assessment/): ประเมินระบบการควบคุมภายในที่มีอยู่ เพื่อให้ทราบข้อดี ข้อเสีย หรือจุดบกพร่องที่ควรดำเนินการป้องกันแก้ไข
+- [ตรวจสอบเฉพาะกรณี / ตรวจสอบทุจริต](https://samnakngan-amtsolution.com/services/special/): ตรวจสอบภายในตามวัตถุประสงค์ ลดความรั่วไหล สูญเปล่าในองค์กร และตรวจสอบกรณีทุจริตหรือกรณีที่มีเหตุอันควรสงสัย
+
+## FAQ
+
+- [คำถามที่พบบ่อย](https://samnakngan-amtsolution.com/faq/): 10 คำถามที่ลูกค้ามักถามก่อนติดต่อ แบ่งเป็นบริการและค่าบริการ มาตรฐานและกฎเกณฑ์ เตรียมเข้าตลาดหลักทรัพย์ (IPO) และเกี่ยวกับ AMT Solution
+
+## Contact
+
+- [ติดต่อ AMT Solution](https://samnakngan-amtsolution.com/contact/): โทร 02-821-6928 อีเมล info@amtaudit.com LINE @amtaudit จันทร์–ศุกร์ 9.00–18.00 น. สำนักงานใหญ่ 79/109 หมู่ 2 ซ.ลาดกระบัง 54 ต.ศีรษะจระเข้น้อย อ.บางเสาธง จ.สมุทรปราการ 10570
+
+## Team
+
+- [ทีมงาน](https://samnakngan-amtsolution.com/team/): ผู้บริหาร สุพจน์ ปานน้อย Chief Executive Officer, AMT Group ใบอนุญาตผู้สอบบัญชีรับอนุญาต (CPA) ผู้ตรวจสอบภายในแห่งประเทศไทย (CPIAT) ผู้สอบบัญชีภาษีอากร (CPTA) ผู้สอบบัญชีสหกรณ์ (Cooperative Auditor) และนักบัญชีวิชาชีพอาเซียน (ASEAN CPA)
+
+## Articles
+
+- [บทความ](https://samnakngan-amtsolution.com/articles/): บทความจากทีมงาน AMT Solution เรื่องการตรวจสอบภายในและการควบคุมภายใน
+- [ตรวจ AI ให้ทันการเปลี่ยนแปลง: กรอบ 6 เสาและทะเบียน use case สำหรับฝ่ายตรวจสอบภายใน](https://samnakngan-amtsolution.com/articles/auditing-ai-6-pillars-use-case-inventory-internal-audit/): ตรวจ AI ให้ทันการเปลี่ยนแปลง: สรุปแนวคิด Forvis Mazars (10 พ.ย. 2026) สำหรับฝ่ายตรวจสอบภายใน — กรอบ 6 เสา ทะเบียน use case ที่จัดระดับความเสี่ยง และการตรวจผลลัพธ์ ไม่ใช่แค่การอนุมัติ
+- [Snowflake อ้างว่า AI ลดเวลางานภาคสนามตรวจสอบภายใน 50% — ตัวเลขของบริษัทเอง ยังไม่มีผู้ยืนยันอิสระ](https://samnakngan-amtsolution.com/articles/snowflake-internal-audit-ai-fieldwork-claim/): Snowflake อ้างว่า AI ช่วยฝ่ายตรวจสอบภายในลดเวลารวบรวมหลักฐาน ทดสอบ และทำรายงาน 50% — เป็นตัวเลขที่บริษัทรายงานเอง ยังไม่มีผู้ยืนยันอิสระ สรุปสิ่งที่อ้างและบทเรียนที่ใช้ได้
+- [เตรียมองค์กรสู่มาตรฐาน ISSB: คณะกรรมการและตรวจสอบภายในต้องทำอะไรก่อนปีบังคับใช้](https://samnakngan-amtsolution.com/articles/issb-readiness-board-internal-audit/): มาตรฐาน ISSB เริ่ม SET50 ปี 2570 สรุปกำหนดเวลาแต่ละกลุ่ม สิ่งที่คณะกรรมการตรวจสอบต้องกำกับ และแผนตรวจสอบภายใน 3 ช่วงก่อนรายงาน 56-1 One Report-S
+- [ตรวจสอบทุจริตในองค์กร เริ่มอย่างไรเมื่อมีเหตุอันควรสงสัย](https://samnakngan-amtsolution.com/articles/fraud-investigation-steps/): ตรวจสอบทุจริตคืออะไร ต่างจากข้อผิดพลาดอย่างไร และองค์กรควรเริ่มอย่างไรเมื่อมีเหตุอันควรสงสัย สรุปขั้นตอนทั่วไป การเก็บหลักฐาน และข้อควรระวัง
+- [ผู้ตรวจสอบภายในใช้ AI แล้ว แต่ใครตรวจผลลัพธ์? บทเรียนจากผลสำรวจ Grant Thornton ฝรั่งเศส](https://samnakngan-amtsolution.com/articles/ai-output-control-internal-audit-france-survey/): ผู้ตรวจสอบภายใน 77% ใช้ AI แล้ว แต่การควบคุมผลลัพธ์ยังตามไม่ทัน สรุปผลสำรวจ Grant Thornton ฝรั่งเศส พร้อมจุดควบคุมผลลัพธ์ AI ตาม GIAS (มาตรฐานสากล IIA) 2024
+- [AI Agent ในงาน Cyber GRC คืออะไร: ข่าว Commugen และสิ่งที่ผู้ตรวจสอบภายในควรรู้](https://samnakngan-amtsolution.com/articles/ai-agent-cyber-grc-internal-audit/): AI Agent ในงาน Cyber GRC คืออะไร สรุปข่าว Commugen ที่ใช้ AI อ่านหลักฐาน จับคู่การควบคุม ร่างข้อตรวจพบ พร้อมข้อควรระวังของผู้ตรวจสอบภายในตาม GIAS (มาตรฐานสากล IIA) 2024
+- [เตรียมบริษัทเข้าตลาดหลักทรัพย์ (IPO) ต้องวางระบบอะไรบ้าง](https://samnakngan-amtsolution.com/articles/ipo-readiness-checklist/): เตรียม IPO ต้องวางระบบอะไรบ้าง สรุประบบควบคุมภายในตามแบบประเมินของ ก.ล.ต. งบการเงิน 3 ปี คณะกรรมการตรวจสอบ และร่างเกณฑ์ผู้ตรวจสอบภายในปี 2571
+- [ผู้ตรวจสอบภายในให้ความเชื่อมั่นเรื่อง AI ขององค์กรอย่างไร: แนวคิดจาก Deloitte สหรัฐฯ](https://samnakngan-amtsolution.com/articles/internal-audit-ai-assurance/): ผู้ตรวจสอบภายในให้ความเชื่อมั่นเรื่อง AI อย่างไร สรุปแนวคิด Deloitte สหรัฐฯ เริ่มจากทะเบียนการใช้ AI จัดระดับความเสี่ยง ใส่ในแผนตรวจ เทียบ GIAS (มาตรฐานสากล IIA) 2024
+- [วัดผล AI ในงานตรวจสอบภายใน: บทเรียนจากข่าว Capital One](https://samnakngan-amtsolution.com/articles/measure-ai-results-internal-audit/): Capital One ระบุว่าผู้ช่วย AI ลดข้อผิดพลาดงานตรวจสอบ 85% แต่ไม่ระบุฐานเทียบและไม่ปรากฏการตรวจอิสระ ดูวิธีวัดผล AI ในงานตรวจสอบภายในเทียบ GIAS (มาตรฐานสากล IIA) 2024
+- [ความร่วมมือด้านตรวจสอบภายในด้วย AI: ข่าวเกาหลีใต้บอกอะไร](https://samnakngan-amtsolution.com/articles/ai-internal-audit-cooperation-korea/): Gangwon Land กับ Korea Housing & Urban Guarantee Corporation (เกาหลีใต้) ร่วมมือตรวจสอบภายในด้วย AI ข่าวยังเป็นแผน เทียบมาตรฐาน GIAS (มาตรฐานสากล IIA) 2024 ของ The IIA
+- [ตรวจสอบภายในแบบ AI Native คืออะไร: ข่าวบริการ AI-first จากญี่ปุ่น และข้อควรคิดของผู้ตรวจสอบภายใน](https://samnakngan-amtsolution.com/articles/ai-native-internal-audit/): ตรวจสอบภายในแบบ AI Native คืออะไร สรุปข่าวบริการของ AI共創総研 (ญี่ปุ่น) ตั้งแต่ใช้ AI วางแผนและประเมินความเสี่ยง จนถึงตรวจครบทุกรายการ พร้อมข้อควรระวังตามมาตรฐาน GIAS (มาตรฐานสากล IIA)
+- [จริยธรรม AI ในงานตรวจสอบภายใน: เมื่อ AI ทำงานตรวจมากขึ้น ผู้ตรวจสอบต้องเก็บอะไรไว้ที่คน](https://samnakngan-amtsolution.com/articles/ai-ethics-internal-audit/): จริยธรรม AI ในงานตรวจสอบภายในคืออะไร อคติอัลกอริทึม ความช่างสงสัยในทางวิชาชีพ ผู้ตรวจสอบอยู่ในกระบวนการ และข้อเสนอ 5 ข้อสำหรับองค์กรไทย
+- [AI ในงานตรวจสอบภายใน: ผลสำรวจสเปนบอกอะไร และฝ่ายตรวจสอบภายในขององค์กรไทยควรเริ่มอย่างไร](https://samnakngan-amtsolution.com/articles/ai-in-internal-audit-spain-survey/): AI ในงานตรวจสอบภายในใช้กันแค่ไหน ดูผลสำรวจ KPMG สเปนและสมาคมผู้ตรวจสอบภายในสเปน พร้อมข้อควรระวังและแนวทางเริ่มต้นสำหรับองค์กรไทย
+- [Co-sourcing ตรวจสอบภายใน: ทำไมฝ่ายตรวจสอบภายในใช้ผู้เชี่ยวชาญภายนอกและ AI มากขึ้น](https://samnakngan-amtsolution.com/articles/internal-audit-co-sourcing-ai/): co-sourcing ตรวจสอบภายในคืออะไร ทำไมฝ่ายตรวจสอบภายในหันมาใช้ผู้เชี่ยวชาญภายนอกและ AI มากขึ้น และ GIAS (มาตรฐานสากล IIA) 2024 กำหนดเรื่องทรัพยากรไว้อย่างไร
+
+## English
+
+- [About AMT Solution](https://samnakngan-amtsolution.com/en/): Short English summary of the company, outsourced internal audit, IPO readiness, location and contact
