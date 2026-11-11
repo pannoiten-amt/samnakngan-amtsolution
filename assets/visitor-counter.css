@@ -1,0 +1,57 @@
+/*
+  Footer visitor counter badge.
+  Footer background is #12213A. Do not set display on this rule without
+  the [hidden] guard below, or the counter shows before numbers arrive.
+
+  Contrast on #FFFFFF (WCAG):
+  - text #12213A  16.10:1
+  - numbers #144891  8.88:1
+  - separator #52607A  6.34:1
+  - icon #FFFFFF on chip #B45309  5.02:1
+  White badge on footer #12213A is 16.10:1.
+*/
+footer p.visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 5px 12px 5px 5px;
+  max-width: 100%;
+  border-radius: 999px;
+  background: #FFFFFF;
+  color: #12213A;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.45;
+  box-shadow: 0 1px 2px rgba(18, 33, 58, 0.18);
+}
+footer p.visitor-counter[hidden] {
+  display: none !important;
+}
+.visitor-counter-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #B45309;
+  color: #FFFFFF;
+}
+.visitor-counter-icon svg {
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+.visitor-counter-text {
+  min-width: 0;
+}
+footer p.visitor-counter strong {
+  font-weight: 700;
+  color: #144891;
+}
+.visitor-counter-sep {
+  color: #52607A;
+  font-weight: 400;
+}
