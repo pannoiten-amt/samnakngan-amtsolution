@@ -1,17 +1,12 @@
 /**
- * Visitor counter settings for samnakngan-amtsolution.com.
+ * Visitor counter for samnakngan-amtsolution.com.
  *
  * VISITOR_COUNTER_ENDPOINT
- *   Placeholder URL for the shared Cloudflare Worker
- *   (pannoiten-amt/samnakngan-amtaudit, folder /counter-worker).
- *   Leave this as an empty string until that URL is known.
- *   The footer counter stays hidden when this is empty.
- *
- * The widget calls:
- *   GET {VISITOR_COUNTER_ENDPOINT}?site=amtsolution
- * and expects JSON: {"today": number, "total": number}
+ *   Origin of the shared Cloudflare Worker. The widget POSTs
+ *   {endpoint}/v1/visit with Content-Type: application/json and
+ *   body {"vid":"<uuid>"} (or {} when localStorage is unavailable).
+ *   The worker chooses the site from the Origin header and returns
+ *   {"site","day","today","total"}.
+ *   Leave this empty to keep the footer badge hidden.
  */
-window.VISITOR_COUNTER_ENDPOINT = "";
-
-/** Per-site key sent to the shared counter. Do not change for this site. */
-window.VISITOR_COUNTER_SITE_KEY = "amtsolution";
+window.VISITOR_COUNTER_ENDPOINT = "https://amt-visitor-counter.pannoi-ten.workers.dev";
