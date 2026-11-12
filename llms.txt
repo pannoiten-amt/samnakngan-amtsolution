@@ -25,6 +25,7 @@
 ## Articles
 
 - [บทความ](https://samnakngan-amtsolution.com/articles/): บทความจากทีมงาน AMT Solution เรื่องการตรวจสอบภายในและการควบคุมภายใน
+- [คู่มือปฏิบัติงาน (Work Manual) ที่ดีต้องมีอะไรบ้าง และใช้ควบคุมภายในอย่างไร](https://samnakngan-amtsolution.com/articles/work-manual-internal-control/): คู่มือปฏิบัติงานคืออะไร ควรมีเนื้อหาอะไรบ้าง และเชื่อมกับการควบคุมภายในตามกรอบ COSO 2013 อย่างไร สรุปให้เข้าใจง่ายสำหรับผู้บริหารและฝ่ายงาน
 - [ตรวจ AI ให้ทันการเปลี่ยนแปลง: กรอบ 6 เสาและทะเบียน use case สำหรับฝ่ายตรวจสอบภายใน](https://samnakngan-amtsolution.com/articles/auditing-ai-6-pillars-use-case-inventory-internal-audit/): ตรวจ AI ให้ทันการเปลี่ยนแปลง: สรุปแนวคิด Forvis Mazars (10 พ.ย. 2026) สำหรับฝ่ายตรวจสอบภายใน — กรอบ 6 เสา ทะเบียน use case ที่จัดระดับความเสี่ยง และการตรวจผลลัพธ์ ไม่ใช่แค่การอนุมัติ
 - [Snowflake อ้างว่า AI ลดเวลางานภาคสนามตรวจสอบภายใน 50% — ตัวเลขของบริษัทเอง ยังไม่มีผู้ยืนยันอิสระ](https://samnakngan-amtsolution.com/articles/snowflake-internal-audit-ai-fieldwork-claim/): Snowflake อ้างว่า AI ช่วยฝ่ายตรวจสอบภายในลดเวลารวบรวมหลักฐาน ทดสอบ และทำรายงาน 50% — เป็นตัวเลขที่บริษัทรายงานเอง ยังไม่มีผู้ยืนยันอิสระ สรุปสิ่งที่อ้างและบทเรียนที่ใช้ได้
 - [เตรียมองค์กรสู่มาตรฐาน ISSB: คณะกรรมการและตรวจสอบภายในต้องทำอะไรก่อนปีบังคับใช้](https://samnakngan-amtsolution.com/articles/issb-readiness-board-internal-audit/): มาตรฐาน ISSB เริ่ม SET50 ปี 2570 สรุปกำหนดเวลาแต่ละกลุ่ม สิ่งที่คณะกรรมการตรวจสอบต้องกำกับ และแผนตรวจสอบภายใน 3 ช่วงก่อนรายงาน 56-1 One Report-S
