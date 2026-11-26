@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E4VB0FNC8S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E4VB0FNC8S');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<title>การกำกับดูแล AI เริ่มจากระบบควบคุมเดิมได้ แต่ยังไม่พอ | AMT Solution</title>
+<meta name="description" content="บทความ TechTarget เสนอว่าการกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ต้องเพิ่มเรื่องสิทธิ์ของ AI agent ที่มาของข้อมูล การติดตาม และปุ่มหยุดฉุกเฉินที่ทดสอบแล้ว ไม่ใช่มาตรฐานหรือกฎหมายไทย">
+<meta name="keywords" content="การกำกับดูแล AI, AI agent, ระบบควบคุมภายใน, ปุ่มหยุดฉุกเฉิน, COSO, GIAS 2024">
+<link rel="canonical" href="https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="th_TH">
+<meta property="og:site_name" content="AMT Solution">
+<meta property="og:title" content="การกำกับดูแล AI เริ่มจากระบบควบคุมเดิมได้ แต่ยังไม่พอ | AMT Solution">
+<meta property="og:description" content="บทความ TechTarget เสนอว่าการกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ต้องเพิ่มเรื่องสิทธิ์ของ AI agent ที่มาของข้อมูล การติดตาม และปุ่มหยุดฉุกเฉินที่ทดสอบแล้ว ไม่ใช่มาตรฐานหรือกฎหมายไทย">
+<meta property="og:url" content="https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/">
+<meta property="og:image" content="https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/ai-governance-existing-controls-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="ภาพหัวบทความ การกำกับดูแล AI เริ่มจากระบบควบคุมเดิมได้ แต่ยังไม่พอ โดยเพิ่มสิทธิ์ของ agent การติดตาม และปุ่มหยุดที่ทดสอบแล้วบนระบบควบคุมเดิม">
+<meta property="article:published_time" content="2026-11-26T00:00:00+07:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="การกำกับดูแล AI เริ่มจากระบบควบคุมเดิมได้ แต่ยังไม่พอ | AMT Solution">
+<meta name="twitter:description" content="บทความ TechTarget เสนอว่าการกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ต้องเพิ่มเรื่องสิทธิ์ของ AI agent ที่มาของข้อมูล การติดตาม และปุ่มหยุดฉุกเฉินที่ทดสอบแล้ว ไม่ใช่มาตรฐานหรือกฎหมายไทย">
+<meta name="twitter:image" content="https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/ai-governance-existing-controls-og.png">
+<meta name="twitter:image:alt" content="ภาพหัวบทความ การกำกับดูแล AI เริ่มจากระบบควบคุมเดิมได้ แต่ยังไม่พอ โดยเพิ่มสิทธิ์ของ agent การติดตาม และปุ่มหยุดที่ทดสอบแล้วบนระบบควบคุมเดิม">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/#article","headline":"การกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ยังไม่พอ: ข้อเสนอจาก TechTarget","description":"บทความ TechTarget เสนอว่าการกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ต้องเพิ่มเรื่องสิทธิ์ของ AI agent ที่มาของข้อมูล การติดตาม และปุ่มหยุดฉุกเฉินที่ทดสอบแล้ว ไม่ใช่มาตรฐานหรือกฎหมายไทย","datePublished":"2026-11-26T00:00:00+07:00","dateModified":"2026-11-26T00:00:00+07:00","inLanguage":"th","url":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/","mainEntityOfPage":{"@type":"WebPage","@id":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/"},"image":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/ai-governance-existing-controls-og.png","keywords":"การกำกับดูแล AI, AI agent, ระบบควบคุมภายใน, ปุ่มหยุดฉุกเฉิน, COSO, GIAS 2024","author":{"@type":"Person","name":"สุพจน์ ปานน้อย","jobTitle":"Chief Executive Officer, AMT Group","url":"https://samnakngan-amtsolution.com/team/","identifier":[{"@type":"PropertyValue","propertyID":"licence","value":"ผู้สอบบัญชีรับอนุญาต (CPA)"},{"@type":"PropertyValue","propertyID":"licence","value":"ผู้ตรวจสอบภายในแห่งประเทศไทย (CPIAT)"},{"@type":"PropertyValue","propertyID":"licence","value":"ผู้สอบบัญชีภาษีอากร (CPTA)"},{"@type":"PropertyValue","propertyID":"licence","value":"ผู้สอบบัญชีสหกรณ์ (Cooperative Auditor)"},{"@type":"PropertyValue","propertyID":"licence","value":"นักบัญชีวิชาชีพอาเซียน (ASEAN CPA)"}]},"publisher":{"@type":"Organization","name":"AMT Solution","url":"https://samnakngan-amtsolution.com/","logo":{"@type":"ImageObject","url":"https://samnakngan-amtsolution.com/assets/amt-logo.png"}},"isPartOf":{"@id":"https://samnakngan-amtsolution.com/#website"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/#faq","url":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/","inLanguage":"th","isPartOf":{"@id":"https://samnakngan-amtsolution.com/#website"},"mainEntity":[{"@type":"Question","name":"องค์กรมีระบบควบคุมภายในอยู่แล้ว ถือว่ากำกับดูแล AI เพียงพอหรือไม่","acceptedAnswer":{"@type":"Answer","text":"ตามผู้เขียน ยังไม่พอโดยอัตโนมัติ ระบบเดิมเป็นจุดตั้งต้นได้ แต่เมื่อ AI ใช้ข้อมูลภายนอก ทำงานข้ามระบบ หรือลงมือทำได้เอง ต้องเพิ่มเรื่องสิทธิ์ การติดตาม และวิธีหยุดที่ทดสอบแล้ว"}},{"@type":"Question","name":"บทความนี้บังคับให้องค์กรไทยทำตามหรือไม่","acceptedAnswer":{"@type":"Answer","text":"ไม่บังคับ เป็นข้อเสนอของผู้เขียน ไม่ใช่กฎหมายหรือมาตรฐานที่ใช้บังคับในประเทศไทย"}},{"@type":"Question","name":"ปุ่มหยุดฉุกเฉินต้องเป็นรูปแบบใด","acceptedAnswer":{"@type":"Answer","text":"ต้นฉบับไม่ได้กำหนดรูปแบบทางเทคนิคแบบเดียว เน้นว่าต้องเหมาะกับความเสี่ยงของระบบนั้น และใช้ได้จริงเมื่อตกลงผู้มีอำนาจสั่งกับเงื่อนไขแล้ว รวมทั้งมีการทดสอบ"}},{"@type":"Question","name":"เรื่องนี้ซ้ำกับบทความ AMT เรื่องการให้ความเชื่อมั่นด้าน AI หรือไม่","acceptedAnswer":{"@type":"Answer","text":"ไม่ซ้ำ บทความเดิมพูดจากมุมฝ่ายตรวจสอบภายในตามแนว Deloitte เรื่องนี้พูดจากมุมการต่อยอดระบบควบคุมเดิมเมื่อมี AI agent และข้อมูลภายนอก"}},{"@type":"Question","name":"ฝ่ายตรวจสอบภายในควรออกแบบกรอบกำกับดูแล AI เองหรือไม่","acceptedAnswer":{"@type":"Answer","text":"กรอบควรเป็นของฝ่ายบริหาร ฝ่ายตรวจสอบภายในช่วยให้ความเชื่อมั่นหรือให้คำปรึกษาได้ แต่ถ้าเคยช่วยออกแบบแล้วจะมาตรวจเรื่องเดียวกัน ต้องจัดการเรื่องความเที่ยงธรรมตาม GIAS 2024"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/#bc","itemListElement":[{"@type":"ListItem","position":1,"name":"หน้าแรก","item":"https://samnakngan-amtsolution.com/"},{"@type":"ListItem","position":2,"name":"บทความ","item":"https://samnakngan-amtsolution.com/articles/"},{"@type":"ListItem","position":3,"name":"การกำกับดูแล AI","item":"https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/"}]}</script>
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+:root{--blue:#144891;--blue2:#1E63C6;--tint:#EEF4FB;--orange:#F08A24;--ink:#12213A;--muted:#52607A;--line:#DDE5F0}
+body{font-family:'IBM Plex Sans Thai',sans-serif;background:#fff;color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit}img{max-width:100%;display:block}.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+h1,h2,h3{line-height:1.4;font-weight:700}
+.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:70px;gap:12px}
+.brand{display:flex;gap:12px;align-items:center;text-decoration:none}.brand span{font-weight:700;color:var(--blue);line-height:1.2}.brand small{display:block;font-weight:400;font-size:.75rem;color:var(--muted)}
+nav a{margin-left:18px;text-decoration:none;font-size:.93rem;font-weight:500}
+.cta-sm{background:var(--orange);color:#fff;text-decoration:none;padding:9px 18px;border-radius:999px;font-weight:600;font-size:.9rem;white-space:nowrap}
+.hero{background:linear-gradient(180deg,var(--tint),#fff);padding:56px 0 36px}.hgrid{display:grid;grid-template-columns:1.25fr 1fr;gap:44px}
+.eyebrow{color:var(--blue2);font-weight:600;font-size:.85rem}.hero h1{font-size:2.15rem;margin:10px 0 16px}.hero h1 span{color:var(--blue2)}
+.lead{font-size:1.07rem;color:var(--muted)}.btns{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-weight:600}.btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--blue)}
+.ask{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 12px 30px rgba(20,72,145,.08)}.ask h2{font-size:1rem;margin-bottom:12px}
+.ask a{display:block;text-decoration:none;padding:11px 14px;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;font-size:.95rem}
+.ask a:before{content:"?";display:inline-block;width:22px;height:22px;border-radius:50%;background:var(--tint);color:var(--blue2);text-align:center;font-weight:700;margin-right:8px;line-height:22px;font-size:.8rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}.stats div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.stats strong{display:block;font-size:1.6rem;color:var(--blue)}.stats span{font-size:.86rem;color:var(--muted)}
+section{padding:56px 0}section.alt{background:var(--tint)}section h2{font-size:1.7rem;margin:4px 0 8px}.intro{color:var(--muted);margin-bottom:24px;max-width:760px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}.card .tag{font-size:.78rem;color:var(--blue2);font-weight:600;background:var(--tint);padding:3px 10px;border-radius:999px}
+.card h3{font-size:1.1rem;margin:12px 0 6px}.card p{font-size:.93rem;color:var(--muted)}
+table.facts{width:100%;border-collapse:collapse;font-size:.95rem;background:#fff;border-radius:14px;overflow:hidden}
+table.facts th,table.facts td{text-align:left;vertical-align:top;padding:11px 14px;border-bottom:1px solid var(--line)}table.facts th{width:34%;font-weight:600;color:var(--blue);background:#F7FAFE}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span{background:#fff;border:1px solid var(--line);padding:6px 14px;border-radius:999px;font-size:.9rem}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;font-size:1.04rem;list-style:none}.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:var(--blue2);font-weight:700}.faq details[open] summary:after{content:"–"}.faq p{color:var(--muted);margin-top:8px}
+.person{display:flex;gap:22px;background:#fff;border-radius:16px;padding:22px;border:1px solid var(--line)}.person img{width:130px;height:130px;border-radius:16px;object-fit:cover;flex-shrink:0}.role{color:var(--blue2);font-size:.92rem;font-weight:500}
+.creds{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.creds span{background:var(--tint);color:var(--blue);font-size:.8rem;padding:4px 10px;border-radius:999px;font-weight:600}
+.bio{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 28px;margin-top:10px;font-size:.92rem}.bio h4{font-size:.95rem;color:var(--blue)}.bio ul{margin:4px 0 0 18px;color:var(--muted)}
+.box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px}.box h3{margin-bottom:10px}.box p{margin-bottom:4px}.box h4{margin-top:14px;font-size:.98rem}
+.map{margin-top:14px;width:100%;height:260px;border:0;border-radius:12px}
+.steps{counter-reset:s;list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.steps li{counter-increment:s;border:1px solid var(--line);border-radius:12px;padding:16px;font-size:.92rem;background:#fff}
+.steps li:before{content:counter(s);display:block;font-weight:700;color:#fff;background:var(--blue2);width:28px;height:28px;border-radius:50%;text-align:center;line-height:28px;margin-bottom:8px}
+.crumb{font-size:.85rem;color:var(--muted)}.crumb a{color:var(--blue2)}
+footer{background:var(--ink);color:#B8C3D6;padding:30px 0;font-size:.85rem}footer p{margin-bottom:6px}footer a{color:#fff}
+.team{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin-top:18px}.tm{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center}
+.tm img,.tm .ini{width:120px;height:120px;border-radius:50%;object-fit:cover;margin:0 auto 10px}.tm .ini{display:flex;align-items:center;justify-content:center;background:var(--tint);color:var(--blue);font-weight:700;font-size:1.6rem}
+.tm h3{font-size:1.02rem}.tm .creds{justify-content:center;margin:8px 0 0}
+table.cpa{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;font-size:.95rem}table.cpa th,table.cpa td{padding:11px 14px;border-bottom:1px solid var(--line);text-align:left}table.cpa thead th{background:var(--blue);color:#fff;font-weight:600}
+.tl{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tl li{background:#fff;border:1px solid var(--line);border-left:4px solid var(--orange);border-radius:12px;padding:18px}.tl strong{display:block;color:var(--orange);font-size:1.3rem}.tl p{color:var(--muted);font-size:.93rem}
+.vision{font-size:1.15rem;font-weight:600;color:var(--blue);background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:18px}
+.hl{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;border-radius:18px;padding:30px}.hl h2{color:#fff}.hl p{color:#E3ECF8}.hl .chips span{color:var(--ink)}.hl .btn{background:var(--orange);margin-top:16px}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.gal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px}
+@media(max-width:900px){.tl,.gal{grid-template-columns:1fr}}
+.ask{align-self:start}@media(max-width:480px){table.cpa th,table.cpa td{padding:10px}table.cpa td:first-child{white-space:nowrap}}.tm .edu{font-size:.88rem;color:var(--muted);margin-top:8px}.slogan{margin:18px 0 6px;max-width:760px;border-left:4px solid var(--orange);background:#fff;border-radius:0 14px 14px 0;padding:18px 22px;box-shadow:0 8px 22px rgba(20,72,145,.06)}.slogan blockquote p{font-size:1.2rem;font-weight:700;color:var(--blue);line-height:1.55}.slogan .ssub{font-size:1rem;font-weight:500;color:var(--ink);margin-top:4px}.slogan figcaption{font-size:.8rem;color:var(--muted);margin-top:8px;letter-spacing:.02em}.sl2{padding-top:8px;padding-bottom:8px}.sl2 .slogan{margin:0 auto;text-align:center;border-left:0;border-top:4px solid var(--orange);border-radius:14px;max-width:820px}.sl2 .slogan blockquote p{font-size:1.3rem}.audmore{margin-top:14px}.audmore summary{display:inline-block;cursor:pointer;list-style:none;color:var(--blue);font-weight:600;border:1px solid var(--blue);border-radius:999px;padding:8px 18px;font-size:.92rem}.audmore summary::-webkit-details-marker{display:none}.audmore summary:focus-visible{outline:2px solid var(--orange);outline-offset:2px}.audmore[open] summary{margin-bottom:12px}.audmore summary:before{content:'+ '}.audmore[open] summary:before{content:'– '}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.jump a{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 16px;text-decoration:none;font-size:.9rem;font-weight:500;color:var(--blue)}.jump a:hover{border-color:var(--blue2)}section.faq h2{margin-bottom:16px}@media(max-width:480px){.brand>span{display:none}}
+.mnav{display:none}.mnav summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:.85rem;font-weight:600;color:var(--blue)}.mnav summary::-webkit-details-marker{display:none}
+.mnav summary:focus-visible{outline:2px solid var(--orange);outline-offset:2px}.burger{position:relative;display:inline-block;width:18px;height:14px}.burger i{position:absolute;left:0;right:0;height:2px;background:var(--blue);border-radius:2px}.burger i:nth-child(1){top:0}.burger i:nth-child(2){top:6px}.burger i:nth-child(3){top:12px}
+.mnav[open] .burger i:nth-child(1),.mnav[open] .burger i:nth-child(3){top:6px}.mnav[open] .burger i:nth-child(1){transform:rotate(45deg)}.mnav[open] .burger i:nth-child(2){opacity:0}.mnav[open] .burger i:nth-child(3){transform:rotate(-45deg)}
+.mpanel{position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 14px 30px rgba(20,72,145,.12);padding:10px 20px 16px;max-height:calc(100vh - 70px);overflow:auto}
+.mpanel a{display:block;text-decoration:none;padding:11px 4px;border-bottom:1px solid var(--line);font-weight:500;font-size:.98rem}.mpanel a:last-child{border-bottom:0}.mpanel .ms{padding-left:16px;font-size:.92rem;color:var(--muted)}.mpanel .mh{margin:12px 4px 2px;font-size:.78rem;font-weight:600;color:var(--blue2)}
+@media(max-width:900px){.mnav{display:block}.top .bar{gap:8px}.top .brand{margin-right:auto}.cta-sm{padding:8px 14px;font-size:.85rem}}@media(min-width:901px){.hero h1 span{white-space:nowrap}}
+.hsub{font-size:1.08rem;font-weight:600;color:var(--blue);margin:-6px 0 14px}.lead+.lead{margin-top:10px}
+ul.lead{margin:8px 0 0 20px}ul.lead li{margin-bottom:2px}
+.stats.s4{grid-template-columns:repeat(4,1fr)}.stats.s4 strong{font-size:1.3rem}
+.dd{position:relative;display:inline-block}.ddm{display:none;position:absolute;left:6px;top:100%;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 30px rgba(20,72,145,.12);padding:8px;min-width:330px;z-index:9}
+.dd:hover .ddm,.dd:focus-within .ddm{display:block}.ddm a{display:block;margin:0;padding:9px 12px;border-radius:8px;font-size:.9rem}.ddm a:hover{background:var(--tint)}
+a.card{display:block;text-decoration:none;transition:border-color .2s,box-shadow .2s}a.card:hover{border-color:var(--blue2);box-shadow:0 10px 24px rgba(20,72,145,.08)}
+.card .go{display:inline-block;margin-top:10px;color:var(--blue2);font-weight:600;font-size:.9rem}
+.svcline{margin-top:18px;font-size:.93rem;color:var(--muted)}
+.scope{list-style:none;display:grid;gap:12px}.scope li{background:#fff;border:1px solid var(--line);border-left:4px solid var(--blue2);border-radius:12px;padding:16px 18px}.scope h3{font-size:1.02rem;margin-bottom:2px}.scope p{color:var(--muted);font-size:.95rem}
+.check{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}.check li{position:relative;padding-left:30px}.check li:before{content:"✓";position:absolute;left:0;top:2px;width:22px;height:22px;border-radius:50%;background:var(--blue2);color:#fff;font-size:.75rem;font-weight:700;text-align:center;line-height:22px}
+.price{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:center}.price .amt{font-size:2rem;font-weight:700;color:var(--blue)}.price p{color:var(--muted);margin-bottom:8px}
+.related{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.scope .check li{background:none;border:0;border-radius:0;padding:2px 0 2px 30px}.scope .check{gap:6px}
+@media(max-width:900px){.check,.price,.related{grid-template-columns:1fr}.stats.s4{grid-template-columns:1fr 1fr}}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.logos{list-style:none;display:grid;grid-template-columns:repeat(8,1fr);gap:10px;margin-top:22px}
+.logos li{background:#fff;border:1px solid var(--line);border-radius:10px;aspect-ratio:2/1;display:flex;align-items:center;justify-content:center;padding:6px}
+.logos img{width:100%;height:100%;object-fit:contain;filter:grayscale(1);opacity:.7;transition:filter .2s,opacity .2s}
+.logos li:hover img,.logos li:focus-within img{filter:none;opacity:1}
+.logos li:nth-child(n+25){display:none}#logo-more:checked~.logos li{display:flex}
+.more{display:inline-block;margin-top:14px;cursor:pointer;color:var(--blue);font-weight:600;border:1px solid var(--blue);border-radius:999px;padding:8px 18px;font-size:.9rem}
+.more .less,#logo-more:checked~.more .all{display:none}#logo-more:checked~.more .less{display:inline}#logo-more:focus-visible~.more{outline:2px solid var(--orange)}
+.lnote{font-size:.85rem;color:var(--muted);margin-top:8px}
+@media(max-width:900px){.logos{grid-template-columns:repeat(3,1fr);gap:8px}.logos li{padding:4px}.logos li:nth-child(n+10){display:none}}
+.btn.line{background:#04873C;color:#fff}.btn.line:hover{background:#036F31}.btn.line:focus-visible{outline:3px solid #06C755;outline-offset:2px}
+.linebox{display:flex;align-items:center;justify-content:space-between;gap:28px;background:#fff;border:1px solid var(--line);border-left:5px solid #06C755;border-radius:16px;padding:24px 28px;box-shadow:0 8px 22px rgba(20,72,145,.06)}.linebox h2{margin-bottom:8px}.linebox p{color:var(--muted)}.linebox .btn{margin-top:16px}.linebox .lid{font-weight:700;color:#04873C}.lqr{flex:0 0 auto;text-align:center}.lqr img{display:block;width:180px;height:auto;border-radius:10px}.lqr figcaption{font-size:.82rem;color:var(--muted);margin-top:6px}.nw{white-space:nowrap}@media(max-width:700px){.linebox{display:block;padding:20px}.linebox h2{font-size:1.35rem}.lqr{display:none}.linebox .btn{display:block;text-align:center;padding:12px 10px}}
+@media(max-width:900px){.brand small,.hide-m{display:none}.hgrid,.grid3,.two,.bio{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr 1fr}.steps{grid-template-columns:1fr 1fr}.hero h1{font-size:1.75rem}.person{flex-direction:column}}
+
+.prose{max-width:760px}.prose p{margin:0 0 14px}.prose h3{font-size:1.12rem;color:var(--blue);margin:22px 0 8px}.prose ul{margin:0 0 16px;padding-left:1.25em}.prose li{margin:0 0 8px}.prose a{color:var(--blue2)}.pubdate{color:var(--muted);font-size:.92rem;margin:-6px 0 14px}.refs a{overflow-wrap:anywhere}
+
+.prose h2{font-size:1.45rem;margin:34px 0 12px;scroll-margin-top:86px}
+.prose ol{margin:0 0 16px;padding-left:1.35em}
+section.article{padding-top:8px}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 16px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.prose .table-scroll table{width:100%;border-collapse:collapse;font-size:.95rem}
+.prose .table-scroll th,.prose .table-scroll td{text-align:left;vertical-align:top;padding:11px 14px;border-bottom:1px solid var(--line)}
+.prose .table-scroll thead th{background:var(--blue);color:#fff;font-weight:600}
+.prose .table-scroll tbody tr:last-child td,.prose .table-scroll tbody tr:last-child th{border-bottom:0}
+.prose .table-scroll th:last-child,.prose .table-scroll td:last-child{white-space:normal}
+.prose .table-scroll table{min-width:40rem}
+.article .faq summary{padding-right:1.6rem}
+@media(max-width:600px){.prose h2{font-size:1.28rem}.prose .table-scroll th,.prose .table-scroll td{padding:10px 12px;font-size:.92rem}.hero{padding:36px 0 20px}}
+.prose figure{margin:6px 0 20px}.prose figure img{width:100%;height:auto;border-radius:14px}.prose figure figcaption{font-size:.85rem;color:var(--muted);margin-top:8px;line-height:1.55}
+.byline{margin:8px 0 12px;color:var(--muted);font-size:.95rem}.byline a{color:var(--blue);font-weight:600;text-decoration:underline}.byline .role,.byline .lic{display:block}.related-articles h2{font-size:1.35rem;margin-bottom:12px}.related-articles ul{list-style:none;display:grid;gap:12px}.related-articles a{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none}.related-articles a strong{display:block;color:var(--blue);font-size:1.02rem;line-height:1.45}.related-articles a span{display:block;color:var(--muted);font-size:.92rem;margin-top:4px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="/" aria-label="AMT Solution หน้าแรก"><img src="/assets/amt-logo.png" alt="โลโก้ AMT Solution" width="92" height="48"><span>AMT Solution<small>ตรวจสอบภายใน · ที่ปรึกษา IPO</small></span></a>
+<nav class="hide-m" aria-label="เมนูหลัก"><span class="dd"><a href="/#services">บริการ ▾</a><span class="ddm"><a href="/services/outsource/">บริการรับตรวจสอบภายใน (Outsource)</a><a href="/services/ipo/">เตรียมความพร้อมเข้าตลาดหลักทรัพย์ (IPO)</a><a href="/services/system/">วางระบบและจัดทำ Flow Chart</a><a href="/services/ic-assessment/">ตรวจประเมินระบบการควบคุมภายในตามข้อตกลง</a><a href="/services/special/">ตรวจสอบเฉพาะกรณี / ตรวจสอบทุจริต</a></span></span><a href="/#area">พื้นที่บริการ</a><a href="/team/">ทีมงาน</a><a href="/articles/">บทความ</a><a href="/faq/">คำถามที่พบบ่อย</a><a href="/contact/">ติดต่อ</a></nav>
+<a class="cta-sm" href="/contact/">ติดต่อเรา</a>
+<details class="mnav"><summary aria-label="เมนู"><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span><span class="mtxt">เมนู</span></summary>
+<nav class="mpanel" aria-label="เมนูหลัก (มือถือ)"><a href="/">หน้าแรก</a><p class="mh">บริการ</p><a class="ms" href="/services/outsource/">บริการรับตรวจสอบภายใน (Outsource)</a><a class="ms" href="/services/ipo/">เตรียมความพร้อมเข้าตลาดหลักทรัพย์ (IPO)</a><a class="ms" href="/services/system/">วางระบบและจัดทำ Flow Chart</a><a class="ms" href="/services/ic-assessment/">ตรวจประเมินระบบการควบคุมภายในตามข้อตกลง</a><a class="ms" href="/services/special/">ตรวจสอบเฉพาะกรณี / ตรวจสอบทุจริต</a><a href="/#area">พื้นที่บริการ</a><a href="/team/">ทีมงาน</a><a href="/articles/">บทความ</a><a href="/faq/">คำถามที่พบบ่อย</a><a href="/contact/">ติดต่อ</a></nav></details>
+</div></header>
+<script>document.addEventListener('click',function(ev){var d=document.querySelector('.mnav');if(!d||!d.open)return;if(ev.target.closest('.mpanel a')||!ev.target.closest('.mnav'))d.open=false});document.addEventListener('keydown',function(ev){var d=document.querySelector('.mnav');if(ev.key==='Escape'&&d&&d.open){d.open=false;d.querySelector('summary').focus()}});</script>
+<main>
+<article>
+<section class="hero"><div class="wrap"><div class="prose">
+<p class="crumb"><a href="/">หน้าแรก</a> › <a href="/articles/">บทความ</a> › การกำกับดูแล AI</p>
+<h1>การกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ยังไม่พอ: ข้อเสนอจาก TechTarget</h1>
+<p class="pubdate"><time datetime="2026-11-26">26 พ.ย. 2569</time></p>
+<p class="byline">โดย <a href="/team/">สุพจน์ ปานน้อย</a> <span class="role">Chief Executive Officer, AMT Group</span> <span class="lic">ผู้สอบบัญชีรับอนุญาต (CPA) · ผู้ตรวจสอบภายในแห่งประเทศไทย (CPIAT) · ผู้สอบบัญชีภาษีอากร (CPTA) · ผู้สอบบัญชีสหกรณ์ (Cooperative Auditor) · นักบัญชีวิชาชีพอาเซียน (ASEAN CPA)</span></p>
+<figure>
+<img src="/articles/ai-governance-existing-controls-techtarget/ai-governance-existing-controls-og.png" alt="ภาพหัวบทความ การกำกับดูแล AI เริ่มจากระบบควบคุมเดิมได้ แต่ยังไม่พอ โดยเพิ่มสิทธิ์ของ agent การติดตาม และปุ่มหยุดที่ทดสอบแล้วบนระบบควบคุมเดิม" width="1200" height="630">
+</figure>
+</div></div></section>
+<section class="article"><div class="wrap"><div class="prose">
+<p><strong>คำตอบสั้น:</strong> บทความของ TechTarget ชื่อ &quot;AI governance starts with existing controls — but can’t stop there&quot; เผยแพร่ 25 พ.ย. 2026 เขียนโดย Mary Shacklett เสนอว่าองค์กรไม่ต้องสร้างกติกาใหม่ทั้งชุดเพื่อกำกับดูแล AI การทบทวนความเสี่ยง การตรวจสอบ และการควบคุมที่มีอยู่แล้วเป็นจุดตั้งต้นได้ แต่ยังไม่พอเมื่อระบบ AI ใช้ข้อมูลจากภายนอก ทำงานข้ามระบบ และลงมือทำได้เอง สิ่งที่ผู้เขียนเสนอให้ &quot;เพิ่ม&quot; คือการกำหนดสิทธิ์ของ AI agent ในระดับรายการ การติดตามพฤติกรรม และวิธีหยุด เพิกถอน หรือย้อนกลับที่ตกลงผู้มีอำนาจสั่งและทดสอบแล้ว</p>
+<p>บทความนี้เป็นข้อเสนอของผู้เขียนในมุมผู้บริหารเทคโนโลยี ไม่ใช่มาตรฐานของ The IIA ไม่ใช่กรอบ COSO และไม่ใช่กฎหมายไทย ฝ่ายตรวจสอบภายในใช้เป็นชุดคำถามประกอบการประเมินการกำกับดูแล AI ได้ โดยยังต้องยึดการประเมินความเสี่ยงขององค์กรเอง</p>
+<p>บทความนี้ต่างจาก <a href="https://samnakngan-amtsolution.com/articles/internal-audit-ai-assurance/">ผู้ตรวจสอบภายในกับการให้ความเชื่อมั่นเรื่อง AI ตามแนว Deloitte</a> ซึ่งพูดจากมุมฝ่ายตรวจสอบภายใน และต่างจาก <a href="https://samnakngan-amtsolution.com/articles/auditing-ai-6-pillars-use-case-inventory-internal-audit/">กรอบ 6 เสาของ Forvis Mazars</a> ซึ่งเสนอวิธีตรวจ AI เป็นโครงสร้าง เรื่องนี้เจาะประเด็นเดียว คือ &quot;ใช้ระบบควบคุมเดิมต่อได้แค่ไหน และต้องเพิ่มอะไรเมื่อมี AI agent&quot;</p>
+<h2 id="s1">บทความนี้คืออะไร และควรอ่านอย่างไร?</h2>
+<p>เป็นบทความเชิงความเห็นบนเว็บ TechTarget ผู้เขียนเป็นประธานบริษัทที่ปรึกษาด้านวิเคราะห์เทคโนโลยี ต้นฉบับพูดกับผู้บริหารเทคโนโลยี (CIO) เป็นหลัก แต่ประเด็นเรื่องการต่อยอดการควบคุมเดิมและการเพิ่มการควบคุมเมื่อ AI ลงมือทำได้ เกี่ยวข้องกับฝ่ายตรวจสอบภายในและผู้บริหารที่กำกับการควบคุมภายในด้วย</p>
+<p>ก่อนนำไปใช้ควรรู้ข้อจำกัดต่อไปนี้</p>
+<ul>
+<li>เป็นความเห็นของผู้เขียนและตัวอย่างจากประสบการณ์ ไม่ใช่ผลสำรวจ และไม่ใช่มาตรฐานหรือกฎหมาย</li>
+<li>ต้นฉบับอ้างกฎเกณฑ์ด้านการรักษาความปลอดภัย ความเป็นส่วนตัว การสอบบัญชี และการควบคุมภายในในบางประเทศ เป็นบริบทต่างประเทศ ไม่ใช่ข้อกำหนดขององค์กรไทยทุกแห่ง</li>
+<li>ตัวอย่างในบทความ เช่น การใช้เครื่องมือ AI ส่วนตัวของพนักงาน หรือการซื้อข้อมูลจากผู้ขายภายนอก เป็นตัวอย่างประกอบ ไม่ใช่กรณีของลูกค้าหรือองค์กรใดในประเทศไทยที่บทความนี้ระบุชื่อ</li>
+<li>บทความไม่ได้ให้รายการทดสอบสำเร็จรูป และไม่ได้กำหนดรูปแบบ &quot;ปุ่มหยุด&quot; แบบเดียวที่ใช้ได้กับทุกระบบ</li>
+</ul>
+<h2 id="s2">ทำไมระบบควบคุมเดิมจึงใช้เป็นจุดตั้งต้นได้</h2>
+<p>ผู้เขียนตั้งคำถามว่าแนวทางที่สมเหตุสมผลในการกำกับดูแล AI คืออะไร และชี้ว่าองค์กรที่มีระบบการทบทวนความเสี่ยง การควบคุมภายใน และการตรวจสอบอยู่แล้วมีจุดตั้งต้น ไม่ต้องเริ่มจากศูนย์ การใช้ AI ไม่ได้ทำให้หน้าที่ที่มีอยู่หายไปโดยอัตโนมัติ แต่การนำกฎเดิมไปใช้กับระบบ AI ที่เปลี่ยนเร็วไม่ใช่เรื่องตรงไปตรงมาเสมอ</p>
+<p>ความยากที่ผู้เขียนชี้คือการรู้ว่า AI เข้าถึงข้อมูลใด เรียกใช้เครื่องมือใด และสิทธิ์เหล่านั้นเปลี่ยนอย่างไรในทางปฏิบัติ ผู้บริหารอาจยังไม่รู้ด้วยซ้ำว่า AI ในองค์กรอยู่ที่ไหนครบหรือไม่ ทั้งที่พนักงานใช้เครื่องมือบนอุปกรณ์ส่วนตัว และที่ฝังอยู่ในระบบของผู้ขายภายนอก</p>
+<p>เวทีที่ผู้เขียนเห็นว่าเหมาะจะคุยเรื่องนี้กับผู้บริหารและคณะกรรมการคือการบริหารความเสี่ยงขององค์กร เพื่อตกลงว่ารับความเสี่ยงด้าน AI ได้มากน้อยเพียงใด และจะวางขอบเขตอย่างไร ระดับความเสี่ยงที่ยอมรับได้ในแต่ละองค์กรไม่เท่ากัน องค์กรที่มีเวทีนี้อยู่แล้วสามารถใช้พิจารณาขอบเขตการกำกับดูแล AI ได้โดยไม่ต้องตั้งคณะกรรมการใหม่เสมอไป</p>
+<h2 id="s3">เครื่องมือกำกับดูแลที่บทความเสนอให้ใช้ต่อ</h2>
+<p>ผู้เขียนเสนอให้หยิบเครื่องมือที่มีอยู่แล้วมาปรับใช้กับ AI ดังนี้</p>
+<ul>
+<li>การกำกับข้อมูล: นโยบายเรื่องคุณภาพ ความมั่นคงปลอดภัย และความพร้อมใช้ของข้อมูล หากระบบ AI ใช้เฉพาะข้อมูลที่เกิดในองค์กรเอง อาจยึดมาตรฐานการกำกับข้อมูลเดิมเป็นฐานได้</li>
+<li>การรักษาความมั่นคงปลอดภัยและการตรวจสอบ: กระบวนการตรวจสอบภายในและภายนอกขยายมาดูการเข้าถึงของ AI ได้ แต่การกระทำของ agent และการไหลของข้อมูลอาจต้องมีหลักฐานเพิ่ม</li>
+<li>ข้อมูลตัวตนและสิทธิ์ผู้ใช้: นโยบายการเข้าถึงใช้กำกับการเข้าถึงข้อมูลของ AI ได้ แต่การที่ agent มีอำนาจทำรายการข้ามระบบอาจต้องตรวจเพิ่มตามบริบทของแต่ละคำสั่ง</li>
+<li>การกำหนดความต้องการของระบบ: หลายองค์กรกำหนดให้มีกรณีใช้งานทางธุรกิจเป็นลายลักษณ์อักษรก่อนอนุมัติระบบใหม่ นโยบายนี้ปรับใช้กับ AI ได้</li>
+<li>การสอบทานสัญญาผู้ขาย: เมื่อผู้ขายมีข้อมูลที่ระบบ AI จะใช้ องค์กรสามารถสอบทานธรรมาภิบาลข้อมูลของผู้ขายในขั้นตอนจัดซื้อและสัญญาได้ ผู้เขียนยกตัวอย่างองค์กรที่ต้องการข้อมูลเพิ่มจากภายนอก แต่พบว่ารูปแบบข้อมูลไม่สอดคล้องกับนโยบายของตน จึงกำหนดในสัญญาให้จัดการข้อมูลให้อยู่ในขอบเขตที่รับได้ก่อนใช้</li>
+<li>การประเมินพฤติกรรมของผู้ใช้: ผู้เขียนเห็นว่าเมื่อหน่วยงานต่าง ๆ ทดลองใช้ AI เองอย่างกว้างขวาง การอบรมและการประเมินพฤติกรรมที่เสี่ยง เช่น การป้อนคำสั่งโดยไม่รอบคอบหรือการพยายามให้ระบบทำงานนอกขอบเขต ควรกลับมาพิจารณาใหม่ และการทดสอบทางเทคนิคก็ยังจำเป็นเพื่อรู้ว่าระบบ AI ยอมให้อะไรเกิดขึ้นจริง</li>
+<li>กลไกหยุดระบบ: งานเทคโนโลยีมีวิธีหยุดระบบรายการเมื่อจำเป็นอยู่แล้ว องค์กรควรระบุวิธีหยุด เพิกถอนสิทธิ์ และย้อนกลับที่เหมาะกับความเสี่ยงและความสามารถของระบบ AI แต่ละชุด</li>
+</ul>
+<p>ผู้เขียนสรุปเป็นสามขั้นสั้น ๆ คือ นำการใช้ AI เข้าสู่การทบทวนความเสี่ยง การสอบทานผู้ขาย และการเป็นเจ้าของงานตรวจที่มีอยู่แล้ว (ใช้ต่อ) ขยายเรื่องที่มาของข้อมูล กฎการเข้าถึง และการกำกับไปถึง agent และระบบบุคคลภายนอก (ปรับ) และกำหนดการให้อำนาจในระดับรายการ การติดตามพฤติกรรม และวิธีหยุดฉุกเฉินที่ทดสอบแล้ว (เพิ่ม)</p>
+<h2 id="s4">จุดที่ระบบควบคุมเดิมยังไม่ครอบคลุม</h2>
+<figure>
+<img src="/articles/ai-governance-existing-controls-techtarget/ai-governance-existing-controls-inline-1.png" alt="จุดที่ระบบควบคุมเดิมยังไม่ครอบคลุมเมื่อ AI ใช้ข้อมูลภายนอก ทำงานข้ามระบบ และลงมือทำได้เอง ได้แก่ สิทธิ์ของ agent การติดตาม และปุ่มหยุดที่ทดสอบแล้ว" width="1200" height="675" loading="lazy">
+</figure>
+<p>ผู้เขียนย้ำว่าการควบคุมเดิมเป็นฐาน แต่ไม่ตอบทุกความเสี่ยงที่ AI นำเข้ามา โดยเฉพาะเมื่อระบบพึ่งข้อมูลจากภายนอก ทำงานข้ามโปรแกรม และตัดสินใจในแบบที่การควบคุมเดิมไม่ได้ถูกออกแบบมาติดตาม</p>
+<ul>
+<li>ข้อมูลจากภายนอก: การควบคุมข้อมูลเดิมใช้กับคลังข้อมูลภายในที่มีเจ้าของชัดได้ง่ายกว่า ข้อมูลจากภายนอกที่เปลี่ยนตลอดและมาจากหลายแหล่ง ยากจะทำรายการ ตรวจสอบ และติดตาม แนวทางที่ผู้เขียนเสนอคือจำกัดหรือสอบทานแหล่งข้อมูลภายนอกอย่างระมัดระวัง หรือให้ระบบทำงานในสภาพแวดล้อมที่จำกัดขอบเขต</li>
+<li>การป้องกันไม่ให้ระบบทำงานนอกขอบเขต: การกำหนดความต้องการของระบบและวิธีหยุดฉุกเฉินช่วยได้ แต่จะใช้ได้จริงก็ต่อเมื่อองค์กรตกลงแล้วว่าใครสั่งหยุดได้ และในเงื่อนไขใด ผู้เขียนระบุจากประสบการณ์ว่าเงื่อนไขทางธุรกิจเปลี่ยนได้ และการตกลงจุดสั่งหยุดมักยาก ผู้บริหารเทคโนโลยีต้องช่วยให้องค์กรลงมติในเรื่องนี้ได้</li>
+<li>บันทึกและการสังเกตการณ์: ระบบรายการทั่วไปมีบันทึกให้ย้อนรอยได้ แต่งานของ AI อาจย้อนได้ยากเมื่อ agent เลือกเส้นทางไม่คงที่ข้ามเครื่องมือและแหล่งข้อมูล แนวทางที่ผู้เขียนเสนอคือจำกัดแหล่งข้อมูลและเครื่องมือที่ระบบใช้ได้ และติดตามคำสั่งของผู้ใช้ ผลลัพธ์ของ AI รวมถึงเครื่องมือและข้อมูลที่ระบบเข้าถึง หากพฤติกรรมผิดปกติ บันทึกเหล่านี้ช่วยสืบได้ว่าเกิดอะไรขึ้น</li>
+<li>สิทธิ์ของ AI agent: การบริหารตัวตนและสิทธิ์ รวมถึงการบริหารสิทธิ์บนโครงสร้างคลาวด์ ใช้กับตัวตนที่ไม่ใช่คนซึ่งรวม AI agent ได้ จุดยากคือการตรวจว่าแต่ละคำสั่งใหม่ยังอยู่ในอำนาจที่มอบให้ agent นั้นหรือไม่</li>
+</ul>
+<p>บทสรุปของผู้เขียนคือ อย่าทิ้งกระบวนการกำกับดูแลเดิมไปสร้างกติกาใหม่ทั้งเล่ม แต่ใช้กระบวนการนั้นเป็นฐาน แล้วกำหนดให้ชัดว่าใครให้อำนาจการกระทำของระบบ AI ได้ ข้อมูลใดใช้ได้ และองค์กรจะรู้ได้อย่างไรว่าเมื่อใดควรเข้าแทรก</p>
+<h2 id="s5">สิ่งที่บทความนี้ไม่ได้บอก</h2>
+<ul>
+<li>ไม่ได้ให้รายการควบคุมหรือรายการทดสอบสำเร็จรูปที่ใช้ได้กับทุกองค์กร</li>
+<li>ไม่ได้กำหนดรูปแบบทางเทคนิคของปุ่มหยุด ระบบบันทึก หรือระบบบริหารสิทธิ์</li>
+<li>ไม่ใช่มาตรฐาน GIAS หรือกรอบ COSO และไม่ได้ตีความกฎหมายไทย</li>
+<li>ไม่ได้สำรวจว่าองค์กรไทยใช้ AI มากน้อยเพียงใด และไม่มีตัวเลขสถิติในต้นฉบับที่บทความนี้หยิบมาใช้</li>
+<li>ไม่ได้รับรองเครื่องมือ AI รายใด</li>
+</ul>
+<h2 id="s6">ข้อคิดสำหรับฝ่ายตรวจสอบภายในขององค์กรไทย (ความเห็น AMT)</h2>
+<p>ข้อความในส่วนนี้เป็นความเห็นของ AMT ไม่ใช่เนื้อหาของบทความต้นทาง และไม่ใช่คำปรึกษาเฉพาะกรณี</p>
+<p>ใจความที่ใช้ได้คือ &quot;อย่าทิ้งของเดิม แต่ต้องรู้ว่าของเดิมครอบตรงไหนไม่ถึง&quot; ซึ่งสอดคล้องกับแนวที่บทความอื่นของ AMT เคยสรุปว่าการให้ความเชื่อมั่นเรื่อง AI ไม่ต้องเริ่มจากศูนย์ แต่ต้องมีชั้นควบคุมเพิ่มเมื่อระบบปรับผลลัพธ์ได้หรือลงมือทำได้เอง การจับคู่ต่อไปนี้เป็นการประยุกต์ของ AMT ผู้เขียนต้นทางไม่ได้อ้างเลขมาตรฐานเหล่านี้</p>
+<ul>
+<li>มาตรฐาน 9.1 ความเข้าใจกระบวนการกำกับดูแล การบริหารความเสี่ยง และการควบคุม (GIAS 2024, The IIA สากล) ใช้เป็นจุดตั้งต้นเมื่อถามว่าองค์กรรู้หรือไม่ว่าใช้ AI ที่ไหน ใครเป็นเจ้าของ และความเสี่ยงเข้าสู่เวทีบริหารความเสี่ยงขององค์กรแล้วหรือยัง</li>
+<li>มาตรฐาน 9.4 แผนการตรวจสอบภายใน กำหนดให้แผนอิงการประเมินความเสี่ยงขององค์กร และพิจารณาความครอบคลุมด้านการกำกับดูแลเทคโนโลยีสารสนเทศและเรื่องความเสี่ยงสูงอื่น หากองค์กรมี AI agent ที่ทำรายการได้ หรือใช้ข้อมูลจากภายนอกในกระบวนการสำคัญ ควรพิจารณาใส่ไว้ในแผน</li>
+<li>กรอบ COSO 2013 มองการควบคุมภายในเป็นกระบวนการที่ดำเนินโดยคนทุกระดับ หลักการข้อ 7 กำหนดให้ระบุและวิเคราะห์ความเสี่ยงต่อการบรรลุวัตถุประสงค์ หลักการข้อ 11 กำหนดให้เลือกและพัฒนากิจกรรมการควบคุมทั่วไปด้านเทคโนโลยี และหลักการข้อ 16 กำหนดให้มีการประเมินอย่างต่อเนื่องหรือเป็นครั้งคราว การประยุกต์กับ AI เป็นความเห็นของ AMT กรอบนี้ไม่ได้เขียนคำว่า AI โดยตรง</li>
+<li>เรื่องสิทธิ์ของ agent ที่มาของข้อมูล บันทึกที่ย้อนรอยได้ และวิธีหยุดที่ทดสอบแล้ว เป็นตัวอย่างของ &quot;ชั้นควบคุมเพิ่ม&quot; ที่ระบบเดิมมักไม่ได้ถูกออกแบบไว้ หากฝ่ายตรวจสอบภายในพบว่าองค์กรมีเพียงนโยบายการใช้ AI แต่ยังไม่มีการทดสอบวิธีหยุด ไม่มีบันทึกเส้นทางของ agent และไม่รู้แหล่งข้อมูลภายนอกที่ใช้ ช่องว่างนี้ควรถูกบรรยายในงานตรวจอย่างเป็นรูปธรรม</li>
+<li>หากฝ่ายตรวจสอบภายในช่วยออกแบบกรอบกำกับดูแล AI แล้วต่อมาต้องให้ความเชื่อมั่นในเรื่องเดียวกัน ต้องจัดการความเสี่ยงต่อความเที่ยงธรรมตามมาตรฐาน 2.2 การรักษาความเที่ยงธรรม (GIAS 2024, The IIA สากล)</li>
+</ul>
+<p>รายการที่ฝ่ายตรวจสอบภายในอาจใช้ประกอบการประเมิน ไม่ใช่รายการบังคับ มีดังนี้</p>
+<ol>
+<li>องค์กรมีรายการการใช้ AI รวมเครื่องมือบนอุปกรณ์ส่วนตัวและระบบผู้ขายที่ฝัง AI อยู่แล้วหรือยัง</li>
+<li>การใช้ AI ถูกนำเข้าสู่เวทีบริหารความเสี่ยงขององค์กร และมีการตกลงขอบเขตความเสี่ยงที่ยอมรับได้หรือไม่</li>
+<li>นโยบายข้อมูล สิทธิ์เข้าถึง การสอบทานผู้ขาย และกรณีใช้งานทางธุรกิจ ถูกขยายครอบ AI แล้วหรือยัง</li>
+<li>AI agent แต่ละชุดได้รับอำนาจทำรายการใดได้ สิทธิ์นั้นถูกทบทวนอย่างไร และมีบันทึกให้ย้อนรอยเส้นทางที่ agent เลือกหรือไม่</li>
+<li>มีวิธีหยุด เพิกถอนสิทธิ์ และย้อนกลับที่ระบุผู้มีอำนาจสั่ง เงื่อนไข และผลการทดสอบแล้วหรือยัง</li>
+<li>แหล่งข้อมูลภายนอกถูกจำกัดหรือสอบทานอย่างไร และระบบถูกจำกัดไม่ให้ทำงานนอกขอบเขตที่อนุมัติหรือไม่</li>
+</ol>
+<h2 id="faq">FAQ สั้น</h2>
+<div class="faq">
+<details id="faq-1">
+<summary>องค์กรมีระบบควบคุมภายในอยู่แล้ว ถือว่ากำกับดูแล AI เพียงพอหรือไม่</summary>
+<p>ตามผู้เขียน ยังไม่พอโดยอัตโนมัติ ระบบเดิมเป็นจุดตั้งต้นได้ แต่เมื่อ AI ใช้ข้อมูลภายนอก ทำงานข้ามระบบ หรือลงมือทำได้เอง ต้องเพิ่มเรื่องสิทธิ์ การติดตาม และวิธีหยุดที่ทดสอบแล้ว</p>
+</details>
+<details id="faq-2">
+<summary>บทความนี้บังคับให้องค์กรไทยทำตามหรือไม่</summary>
+<p>ไม่บังคับ เป็นข้อเสนอของผู้เขียน ไม่ใช่กฎหมายหรือมาตรฐานที่ใช้บังคับในประเทศไทย</p>
+</details>
+<details id="faq-3">
+<summary>ปุ่มหยุดฉุกเฉินต้องเป็นรูปแบบใด</summary>
+<p>ต้นฉบับไม่ได้กำหนดรูปแบบทางเทคนิคแบบเดียว เน้นว่าต้องเหมาะกับความเสี่ยงของระบบนั้น และใช้ได้จริงเมื่อตกลงผู้มีอำนาจสั่งกับเงื่อนไขแล้ว รวมทั้งมีการทดสอบ</p>
+</details>
+<details id="faq-4">
+<summary>เรื่องนี้ซ้ำกับบทความ AMT เรื่องการให้ความเชื่อมั่นด้าน AI หรือไม่</summary>
+<p>ไม่ซ้ำ บทความเดิมพูดจากมุมฝ่ายตรวจสอบภายในตามแนว Deloitte เรื่องนี้พูดจากมุมการต่อยอดระบบควบคุมเดิมเมื่อมี AI agent และข้อมูลภายนอก</p>
+</details>
+<details id="faq-5">
+<summary>ฝ่ายตรวจสอบภายในควรออกแบบกรอบกำกับดูแล AI เองหรือไม่</summary>
+<p>กรอบควรเป็นของฝ่ายบริหาร ฝ่ายตรวจสอบภายในช่วยให้ความเชื่อมั่นหรือให้คำปรึกษาได้ แต่ถ้าเคยช่วยออกแบบแล้วจะมาตรวจเรื่องเดียวกัน ต้องจัดการเรื่องความเที่ยงธรรมตาม GIAS 2024</p>
+</details>
+</div>
+<h2 id="s7">AMT ช่วยได้อย่างไร?</h2>
+<p>AMT Solution ให้บริการตรวจสอบภายในและประเมินระบบการควบคุมภายในตามขอบเขตที่ตกลงกับลูกค้า รวมถึงการประเมินการกำกับดูแลการใช้ AI และการควบคุมที่เกี่ยวข้องตามความเสี่ยงขององค์กร รายละเอียดและขอบเขตงานขึ้นกับข้อตกลงเป็นรายกรณี</p>
+<h2 id="sources">แหล่งอ้างอิง</h2>
+<ul class="refs">
+<li>TechTarget, AI governance starts with existing controls — but can’t stop there, Mary Shacklett, 25 พ.ย. 2026: <a href="https://www.techtarget.com/news/ai-governance-starts-with-existing-controls-but-cant-stop-there/875091/" target="_blank" rel="noopener">https://www.techtarget.com/news/ai-governance-starts-with-existing-controls-but-cant-stop-there/875091/</a></li>
+<li>COSO, Internal Control — Integrated Framework (2013): Executive Summary: <a href="https://www.coso.org/_files/ugd/3059fc_1df7d5dd38074006bce8fdf621a942cf.pdf" target="_blank" rel="noopener">https://www.coso.org/_files/ugd/3059fc_1df7d5dd38074006bce8fdf621a942cf.pdf</a></li>
+<li>The IIA, Global Internal Audit Standards (GIAS 2024): <a href="https://www.theiia.org/en/standards/2024-standards/" target="_blank" rel="noopener">https://www.theiia.org/en/standards/2024-standards/</a></li>
+<li>บทความที่เกี่ยวข้องบนเว็บ AMT (คนละเอกสาร): <a href="https://samnakngan-amtsolution.com/articles/internal-audit-ai-assurance/">ผู้ตรวจสอบภายในกับการให้ความเชื่อมั่นเรื่อง AI</a> · <a href="https://samnakngan-amtsolution.com/articles/auditing-ai-6-pillars-use-case-inventory-internal-audit/">ตรวจ AI ให้ทันการเปลี่ยนแปลง: กรอบ 6 เสา</a> · <a href="https://samnakngan-amtsolution.com/articles/ai-output-control-internal-audit-france-survey/">ควบคุมผลลัพธ์ AI จากผลสำรวจ Grant Thornton ฝรั่งเศส</a> · <a href="https://samnakngan-amtsolution.com/articles/ai-ethics-internal-audit/">จริยธรรม AI ในงานตรวจสอบภายใน</a></li>
+</ul>
+<p>ลิขสิทธิ์ / การใช้เนื้อหา: เนื้อหาต้นทางเป็นลิขสิทธิ์ของ TechTarget และหน่วยงานต้นทางที่อ้าง บทความนี้เป็นบทสรุปและความเห็นของ AMT เรียบเรียงใหม่เป็นภาษาไทย ไม่ใช่คำแปลทั้งฉบับ และไม่ใช้ภาพจากต้นฉบับ บทความนี้ไม่ใช่คำปรึกษาเฉพาะกรณี ไม่ได้แนะนำหรือรับรองเครื่องมือใด และไม่ใช่แถลงของ TechTarget, COSO หรือ The IIA</p>
+</div></div></section>
+<section class="alt related-articles" id="related" aria-label="บทความที่เกี่ยวข้อง"><div class="wrap"><h2>บทความที่เกี่ยวข้อง</h2><ul>
+<li><a href="/articles/internal-audit-ai-assurance/"><strong>ผู้ตรวจสอบภายในให้ความเชื่อมั่นเรื่อง AI ขององค์กรอย่างไร: แนวคิดจาก Deloitte สหรัฐฯ</strong><span>ผู้ตรวจสอบภายในให้ความเชื่อมั่นเรื่อง AI อย่างไร สรุปแนวคิด Deloitte สหรัฐฯ เริ่มจากทะเบียนการใช้ AI จัดระดับความเสี่ยง ใส่ในแผนตรวจ เทียบ GIAS (มาตรฐานสากล IIA) 2024</span></a></li>
+<li><a href="/articles/auditing-ai-6-pillars-use-case-inventory-internal-audit/"><strong>ตรวจ AI ให้ทันการเปลี่ยนแปลง: กรอบ 6 เสาและทะเบียน use case สำหรับฝ่ายตรวจสอบภายใน</strong><span>ตรวจ AI ให้ทันการเปลี่ยนแปลง: สรุปแนวคิด Forvis Mazars (10 พ.ย. 2026) สำหรับฝ่ายตรวจสอบภายใน — กรอบ 6 เสา ทะเบียน use case ที่จัดระดับความเสี่ยง และการตรวจผลลัพธ์ ไม่ใช่แค่การอนุมัติ</span></a></li>
+<li><a href="/articles/ai-output-control-internal-audit-france-survey/"><strong>ผู้ตรวจสอบภายในใช้ AI แล้ว แต่ใครตรวจผลลัพธ์? บทเรียนจากผลสำรวจ Grant Thornton ฝรั่งเศส</strong><span>ผู้ตรวจสอบภายใน 77% ใช้ AI แล้ว แต่การควบคุมผลลัพธ์ยังตามไม่ทัน สรุปผลสำรวจ Grant Thornton ฝรั่งเศส พร้อมจุดควบคุมผลลัพธ์ AI ตาม GIAS (มาตรฐานสากล IIA) 2024</span></a></li>
+<li><a href="/articles/ai-ethics-internal-audit/"><strong>จริยธรรม AI ในงานตรวจสอบภายใน: เมื่อ AI ทำงานตรวจมากขึ้น ผู้ตรวจสอบต้องเก็บอะไรไว้ที่คน</strong><span>จริยธรรม AI ในงานตรวจสอบภายในคืออะไร อคติอัลกอริทึม ความช่างสงสัยในทางวิชาชีพ ผู้ตรวจสอบอยู่ในกระบวนการ และข้อเสนอ 5 ข้อสำหรับองค์กรไทย</span></a></li>
+</ul></div></section>
+</article>
+</main>
+<footer><div class="wrap">
+<p>© AMT Solution · บริษัท สำนักงาน เอ.เอ็ม.ที. โซลูชั่น จำกัด (AMT Solution Co., Ltd.) · เลขทะเบียนนิติบุคคล 0-1155-58003-79-0</p>
+<p>โทร 02-821-6928 · อีเมล <a href="mailto:info@amtaudit.com">info@amtaudit.com</a> · จันทร์–ศุกร์ 9.00–18.00 น.</p>
+<p>บริการ: <a href="/services/outsource/">บริการรับตรวจสอบภายใน (Outsource)</a> · <a href="/services/ipo/">เตรียมความพร้อมเข้าตลาดหลักทรัพย์ (IPO)</a> · <a href="/services/system/">วางระบบและจัดทำ Flow Chart</a> · <a href="/services/ic-assessment/">ตรวจประเมินระบบการควบคุมภายในตามข้อตกลง</a> · <a href="/services/special/">ตรวจสอบเฉพาะกรณี / ตรวจสอบทุจริต</a></p>
+<p>เกี่ยวกับเรา: <a href="/team/">ทีมงาน</a> · <a href="/articles/">บทความ</a> · <a href="/faq/">คำถามที่พบบ่อย</a> · <a href="/contact/">ติดต่อเรา</a></p>
+<p>เครือ AMT Group: <a href="https://samnakngan-amtaudit.com/" target="_blank" rel="noopener">AMT Audit Group (สอบบัญชี)</a> · <a href="https://www.amtcapital.co.th/" target="_blank" rel="noopener">AMT Capital</a> · <a href="https://www.amtsolution.co.th/" target="_blank" rel="noopener">www.amtsolution.co.th</a></p>
+<p id="visitor-counter" class="visitor-counter" hidden aria-hidden="true"><span class="visitor-counter-icon" aria-hidden="true"><svg viewBox="0 0 20 20" width="14" height="14" focusable="false" aria-hidden="true"><path fill="currentColor" d="M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z"/></svg></span><span class="visitor-counter-text">ผู้เข้าชมวันนี้ <strong id="visitor-counter-today"></strong> คน <span class="visitor-counter-sep" aria-hidden="true">·</span> ผู้เข้าชมทั้งหมด <strong id="visitor-counter-total"></strong> คน</span></p>
+</div></footer>
+<link rel="stylesheet" href="/assets/visitor-counter.css">
+<script src="/assets/visitor-counter-config.js" defer></script>
+<script src="/assets/visitor-counter.js" defer></script>
+</body>
+</html>
