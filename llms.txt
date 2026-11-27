@@ -25,6 +25,7 @@
 ## Articles
 
 - [บทความ](https://samnakngan-amtsolution.com/articles/): บทความจากทีมงาน AMT Solution เรื่องการตรวจสอบภายในและการควบคุมภายใน
+- [Flow Chart ระบบงาน เขียนอย่างไรให้ใช้ควบคุมภายในได้จริง](https://samnakngan-amtsolution.com/articles/process-flowchart-internal-control/): Flow Chart ระบบงานคืออะไร เขียนอย่างไรให้ใช้ควบคุมภายในได้จริง องค์ประกอบที่ต้องมี ขั้นตอนเขียน และจุดควบคุม อ้างอิง COSO 2013
 - [ISACA เปิดตัว COBIT 7 กรอบกำกับดูแลสารสนเทศและเทคโนโลยีฉบับปรับปรุง พร้อมโมเดลประเมิน 3 ระดับ — ไม่ใช่มาตรฐานบังคับของไทย](https://samnakngan-amtsolution.com/articles/isaca-launches-cobit-7-it-governance/): ISACA เปิดตัว COBIT 7 เมื่อ 19 พ.ย. 2026 มีโมเดลประเมิน 3 ระดับและแพลตฟอร์มดิจิทัล เป็นกรอบของ ISACA ไม่ใช่มาตรฐานบังคับของไทย
 - [แผนตรวจสอบภายในปี 2027 ตามแนว Grant Thornton UK: AI ความยืดหยุ่นทางธุรกิจ และ Provision 29 — ไม่ใช่ข้อกำหนดของไทย](https://samnakngan-amtsolution.com/articles/grant-thornton-uk-2027-internal-audit-plan/): Grant Thornton UK เสนอหัวข้อที่ควรพิจารณาเมื่อวางแผนตรวจสอบภายในปี 2027 ได้แก่ AI ความยืดหยุ่นทางธุรกิจ และ Provision 29 เป็นบทความแนะนำ ไม่ใช่ข้อกำหนดของไทย
 - [การกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ยังไม่พอ: ข้อเสนอจาก TechTarget](https://samnakngan-amtsolution.com/articles/ai-governance-existing-controls-techtarget/): บทความ TechTarget เสนอว่าการกำกับดูแล AI เริ่มจากระบบควบคุมที่มีอยู่ได้ แต่ต้องเพิ่มเรื่องสิทธิ์ของ AI agent ที่มาของข้อมูล การติดตาม และปุ่มหยุดฉุกเฉินที่ทดสอบแล้ว ไม่ใช่มาตรฐานหรือกฎหมายไทย
